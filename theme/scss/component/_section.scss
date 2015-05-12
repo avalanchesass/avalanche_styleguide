@@ -1,0 +1,55 @@
+/**
+ * @name Section
+ * @level X.X.
+ */
+
+.c-theme-section--main {
+  > .c-theme-section__item + .c-theme-section__item {
+    margin-top: $spacing-xxl;
+    padding-top: $spacing-xxl;
+    border-top: 0.0625rem solid $cs-grey-a;
+  }
+}
+
+.c-theme-section--inner {
+  @include u-spacing-wrap($spacing-xl);
+  p + & {
+    margin-top: $spacing-m;
+  }
+  .c-theme-section--inner {
+    @include u-spacing-wrap($spacing-l);
+  }
+}
+
+.c-theme-section__detail {
+  margin-top: $spacing-xs;
+}
+
+.c-theme-section__title {
+  + h1 {
+    margin-top: 0;
+  }
+}
+
+.c-theme-section__anchor {
+  position: absolute;
+  margin-left: -0.75em;
+  padding-right: 0.5em;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.2s;
+  &,
+  &:visited,
+  &:hover,
+  &:focus {
+    color: $cs-grey-b;
+  }
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+  .c-theme-section__title:hover &,
+  .c-theme-section__title:focus & {
+    opacity: 1;
+  }
+}

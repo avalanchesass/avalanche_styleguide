@@ -1,29 +1,29 @@
-<section id="{{ section.level }}" class="section section--level-{{ section.level }}">
-  <{{ section.htag }}><a href="#{{ section.level }}" class="section__anchor">#</a>{{ section.name }}</{{ section.htag }}>
+<section id="{{ section.level }}" class="c-theme-section__item">
+  <{{ section.htag }} class="c-theme-section__title"><a href="#{{ section.level }}" class="c-theme-section__anchor">#</a>{{ section.name }}</{{ section.htag }}>
   {{ section.description|markdown }}
 
   {% if section.markup %}
-    <div class="markup">
-      <div class="markup__rendered">
+    <div class="c-theme-section__detail c-theme-markup o-theme-island">
+      <div class="c-theme-markup__rendered">
         {{ section.markup|raw }}
       </div>
-      <div class="markup__code">
+      <div class="c-theme-markup__code">
         <pre class="language-{{ section.markup_language }}"><code class="language-{{ section.markup_language }}">{{ section.markup }}</code></pre>
       </div>
     </div>
   {% endif %}
 
   {% if section.colors %}
-    <div class="colors">
+    <div class="c-theme-section__detail c-theme-color">
       {% for colorset in section.colors %}
-        <ul class="colors__set">
+        <ul class="c-theme-color__set u-theme-list-reset">
           {% for color in colorset %}
-            <li>
-              <div style="background:{{ color.value }};width:100px;height:100px;border:1px solid grey;"></div>
+            <li class="c-theme-color__color">
+              <div style="background:{{ color.value }};" class="c-theme-color__box"></div>
               {% if color.name %}
-                <h5>{{ color.name }}</h5>
+                <h5 class="c-theme-color__name">{{ color.name }}</h5>
               {% endif %}
-              <h6>{{ color.value }}</h6>
+              <h6 class="c-theme-color__value">{{ color.value }}</h6>
             </li>
           {% endfor %}
         </ul>
@@ -32,20 +32,24 @@
   {% endif %}
 
   {% if section.variables %}
-    <div class="variables">
+    <div class="c-theme-section__detail c-theme-variable o-theme-island">
       {{ section.variables|markdown }}
     </div>
   {% endif %}
 
   {% if section.font %}
-    <div class="font">
+    <div class="c-theme-section__detail c-theme-font o-theme-island">
       <div style="font-family:{{ section.font_family }};">
         {{ section.font|markdown }}
       </div>
     </div>
   {% endif %}
 
-  {% for section in section.sub %}
-    {% include 'section.html' %}
-  {% endfor %}
+  {% if section.sub %}
+    <div class="c-theme-section c-theme-section--inner">
+      {% for section in section.sub %}
+        {% include 'section.html' %}
+      {% endfor %}
+    </div>
+  {% endif %}
 </section>

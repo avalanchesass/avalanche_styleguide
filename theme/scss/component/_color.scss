@@ -1,0 +1,25 @@
+/**
+ * @name Color
+ * @level X.X.
+ */
+
+.c-theme-color {
+  margin-top: $spacing-m;
+}
+
+.c-theme-color__color {
+  display: inline-block;
+  + .c-theme-color__color {
+    margin-left: $spacing-m;
+  }
+}
+
+.c-theme-color__box {
+  width: 8em;
+  height: 8em;
+  border: 0.0625rem solid $cs-grey-c;
+}
+
+.c-theme-color__name {
+  margin: 0;
+}

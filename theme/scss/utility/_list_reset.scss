@@ -1,0 +1,12 @@
+/**
+ * @name List reset
+ * @level X.X.
+ */
+@mixin u-list-reset() {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.u-theme-list-reset {
+  @include u-list-reset();
+}

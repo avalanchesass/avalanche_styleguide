@@ -1,0 +1,16 @@
+/**
+ * @name Container
+ * @level X.X.
+ * @description
+ *   Basic container class to limit the max-width  
+ *   of the layout and add some padding
+ */
+@mixin u-container($spacing: 0 1em, $max-width: $layout-max-width) {
+  margin: 0 auto;
+  padding: $spacing;
+  max-width: $max-width;
+}
+
+.u-theme-container {
+  @include u-container();
+}
