@@ -14,15 +14,17 @@
     {% endfor %}
     <link rel="stylesheet" href="theme/css/theme.min.css">
   </head>
-  <body class="u-theme-container">
+  <body>
     {% include 'header.html' %}
-    {% include 'toc.html' %}
-    <div class="c-theme-section c-theme-section--main">
-      {% for section in sections %}
-        {% include 'section.html' %}
-      {% endfor %}
+    <div class="u-theme-container">
+      {% include 'toc.html' %}
+      <div class="c-theme-section c-theme-section--main">
+        {% for section in sections %}
+          {% include 'section.html' %}
+        {% endfor %}
+      </div>
+      {% include 'footer.html' %}
     </div>
-    {% include 'footer.html' %}
 
     <script src="{{ base_path }}assets/vendor/prism/prism.js"></script>
   </body>
