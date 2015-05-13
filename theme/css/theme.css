@@ -295,9 +295,11 @@ h5 + * {
   background: #35478C;
   text-align: center; }
 
-.c-theme-header-main__description {
-  margin-top: 0.5em;
+.c-theme-header-main__title, .c-theme-header-main__description {
   color: #fff; }
+
+.c-theme-header-main__description {
+  margin-top: 0.5em; }
 
 /**
  * @name Markup

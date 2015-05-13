@@ -9,7 +9,11 @@
   text-align: center;
 }
 
+.c-theme-header-main__title,
+.c-theme-header-main__description {
+  color: $cs-b-contrast;
+}
+
 .c-theme-header-main__description {
   margin-top: $spacing-xs;
-  color: $cs-b-contrast;
 }
