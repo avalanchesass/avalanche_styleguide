@@ -323,7 +323,7 @@ h5 + * {
 .c-theme-section--main > .c-theme-section__item + .c-theme-section__item {
   margin-top: 4em;
   padding-top: 4em;
-  border-top: 0.0625rem solid #efefef; }
+  border-top: 0.0625rem solid #d5d5d5; }
 
 .c-theme-section--inner > * + * {
   margin-top: 3em; }
