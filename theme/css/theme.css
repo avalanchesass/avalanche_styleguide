@@ -287,6 +287,14 @@ h5 + * {
   margin: 0; }
 
 /**
+ * @name Footer main
+ * @level X.X.
+ */
+.c-theme-footer-main {
+  padding: 0.5em 0;
+  border-top: 0.0625rem solid #efefef; }
+
+/**
  * @name Header main
  * @level X.X.
  */
