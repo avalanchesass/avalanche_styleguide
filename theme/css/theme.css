@@ -329,6 +329,8 @@ h5 + * {
 
 .c-theme-section--inner > * + * {
   margin-top: 3em; }
+* + .c-theme-section--inner {
+  margin-top: 3em; }
 p + .c-theme-section--inner {
   margin-top: 1.5em; }
 .c-theme-section--inner .c-theme-section--inner > * + * {

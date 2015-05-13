@@ -13,6 +13,9 @@
 
 .c-theme-section--inner {
   @include u-spacing-wrap($spacing-xl);
+  * + & {
+    margin-top: $spacing-xl;
+  }
   p + & {
     margin-top: $spacing-m;
   }
