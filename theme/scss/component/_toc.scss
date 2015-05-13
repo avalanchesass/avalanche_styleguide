@@ -1,0 +1,14 @@
+/**
+ * @name TOC
+ * @level X.X.
+ */
+
+.c-toc__list--main {
+  > .c-toc__item + .c-toc__item {
+    margin-top: $spacing-xs;
+  }
+  > .c-toc__item > .c-toc__link {
+    font-weight: $font-a-weight-bold;
+    font-size: $font-size-l;
+  }
+}

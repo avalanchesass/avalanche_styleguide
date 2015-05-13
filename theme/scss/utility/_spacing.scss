@@ -11,3 +11,7 @@
 .u-theme-spacing-wrap {
   @include u-spacing-wrap();
 }
+
+.u-theme-spacing-wrap--xxxl {
+  @include u-spacing-wrap($spacing-xxxl);
+}

@@ -14,18 +14,22 @@
     {% endfor %}
     <link rel="stylesheet" href="theme/css/theme.min.css">
   </head>
-  <body>
-    {% include 'header.html' %}
+  <body class="u-theme-spacing-wrap--xxxl">
+      {% include 'header.html' %}
     <div class="u-theme-container">
       {% include 'toc.html' %}
+    </div>
+    <div class="u-theme-container">
       <div class="c-theme-section c-theme-section--main">
         {% for section in sections %}
           {% include 'section.html' %}
         {% endfor %}
       </div>
+    </div>
+    <div class="u-theme-container">
       {% include 'footer.html' %}
     </div>
-
+      
     <script src="{{ base_path }}assets/vendor/prism/prism.js"></script>
   </body>
 </html>

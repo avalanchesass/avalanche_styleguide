@@ -221,6 +221,9 @@ h5 + * {
 .u-theme-spacing-wrap > * + * {
   margin-top: 1.5em; }
 
+.u-theme-spacing-wrap--xxxl > * + * {
+  margin-top: 5em; }
+
 /**
  * @name Object
  * @level 6.
@@ -306,69 +309,6 @@ h5 + * {
   margin-top: 1.5em; }
 
 /**
- * @name Menu
- * @level X.X.
- */
-/**
- * Variables
- */
-/**
- * Defaults
- */
-.c-theme-menu__list {
-  margin: 0;
-  background: #16193B;
-  padding-left: 0;
-  list-style-type: none; }
-
-.c-theme-menu__list--level1 {
-  -webkit-transition: -webkit-transform 0.2s;
-          transition: transform 0.2s; }
-
-.c-theme-menu__item {
-  position: relative; }
-
-.c-theme-menu__link {
-  display: block;
-  text-decoration: none; }
-  .c-theme-menu__link, .c-theme-menu__link:hover, .c-theme-menu__link:focus, .c-theme-menu__link:visited {
-    color: #fff; }
-
-.c-theme-menu__checkbox {
-  display: none; }
-
-@media (min-width: 45em) {
-  .c-theme-menu__controls {
-    display: none; } }
-
-/**
-   * @name Vertical
-   * @level X.X.X.
-   *
-   * @markup
-   *   <nav class="c-menu c-menu--vertical">
-   *     <ul class="c-menu__list c-menu__list--level1">
-   *       <li class="c-menu__item c-menu__item--level1">
-   *         <a href="#" class="c-menu__link c-menu__link--level1">Link 1</a>
-   *         <ul class="c-menu__list c-menu__list--level2">
-   *           <li class="c-menu__item c-menu__item--level2">
-   *             <a href="#" class="c-menu__link c-menu__link--level2">Link 1.1</a>
-   *           </li>
-   *           <li class="c-menu__item c-menu__item--level2">
-   *             <a href="#" class="c-menu__link c-menu__link--level2">Link 1.2</a>
-   *           </li>
-   *         </ul>
-   *       </li>
-   *       <li class="c-menu__item c-menu__item--level1">
-   *         <a href="#" class="c-menu__link c-menu__link--level1">Link 2</a>
-   *       </li>
-   *       <li class="c-menu__item c-menu__item--level1">
-   *         <a href="#" class="c-menu__link c-menu__link--level1">Link 3</a>
-   *       </li>
-   *     </ul>
-   *   </nav>
-   */
-/**
  * @name Section
  * @level X.X.
  */
@@ -404,6 +344,16 @@ p + .c-theme-section--inner {
     text-decoration: underline; }
   .c-theme-section__title:hover .c-theme-section__anchor, .c-theme-section__title:focus .c-theme-section__anchor {
     opacity: 1; }
+
+/**
+ * @name TOC
+ * @level X.X.
+ */
+.c-toc__list--main > .c-toc__item + .c-toc__item {
+  margin-top: 0.5em; }
+.c-toc__list--main > .c-toc__item > .c-toc__link {
+  font-weight: 700;
+  font-size: 1.25em; }
 
 
 /*# sourceMappingURL=theme.css.map */
