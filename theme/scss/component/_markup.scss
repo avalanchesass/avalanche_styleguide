@@ -3,7 +3,15 @@
  * @level X.X.
  */
 
-.c-theme-markup__code {
+.c-theme-code__rendered {
+  .o-grid__inner {
+    display: block;
+    padding: $spacing-xs;
+    background: $cs-grey-c;
+  }
+}
+
+.c-theme-code__code {
   * + & {
     margin-top: $spacing-m;
   }

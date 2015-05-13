@@ -313,9 +313,14 @@ h5 + * {
  * @name Markup
  * @level X.X.
  */
-* + .c-theme-markup__code {
+.c-theme-code__rendered .o-grid__inner {
+  display: block;
+  padding: 0.5em;
+  background: #bcbcbc; }
+
+* + .c-theme-code__code {
   margin-top: 1.5em; }
-.c-theme-markup__code pre[class*='language-'] {
+.c-theme-code__code pre[class*='language-'] {
   margin: 0; }
 
 /**
