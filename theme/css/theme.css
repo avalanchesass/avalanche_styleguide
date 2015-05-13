@@ -313,8 +313,10 @@ h5 + * {
  * @name Markup
  * @level X.X.
  */
-.c-theme-markup__code {
+* + .c-theme-markup__code {
   margin-top: 1.5em; }
+.c-theme-markup__code pre[class*='language-'] {
+  margin: 0; }
 
 /**
  * @name Section

@@ -4,5 +4,10 @@
  */
 
 .c-theme-markup__code {
-  margin-top: $spacing-m;
+  * + & {
+    margin-top: $spacing-m;
+  }
+  pre[class*='language-'] {
+    margin: 0;
+  }
 }

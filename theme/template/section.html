@@ -4,9 +4,11 @@
 
   {% if section.markup %}
     <div class="c-theme-section__detail c-theme-markup o-theme-island">
-      <div class="c-theme-markup__rendered">
-        {{ section.markup|raw }}
-      </div>
+      {% if section.markup_language != 'scss' %}
+        <div class="c-theme-markup__rendered">
+          {{ section.markup|raw }}
+        </div>
+      {% endif %}
       <div class="c-theme-markup__code">
         <pre class="language-{{ section.markup_language }}"><code class="language-{{ section.markup_language }}">{{ section.markup }}</code></pre>
       </div>
