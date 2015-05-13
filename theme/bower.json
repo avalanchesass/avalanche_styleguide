@@ -24,6 +24,7 @@
     "avalanche_utility_container": "^2.0.0",
     "avalanche_utility_spacing": "^2.0.0",
     "avalanche_utility_clearfix": "^2.0.0",
+    "avalanche_utility_list_reset": "^2.0.0",
     "avalanche_object_island": "^2.0.0",
     "normalize.css": "~3.0.3"
   }

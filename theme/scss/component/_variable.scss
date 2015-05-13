@@ -1,0 +1,10 @@
+/**
+ * @name Color
+ * @level X.X.
+ */
+
+.c-theme-variable {
+  ul {
+    @include u-list-reset();
+  }
+}

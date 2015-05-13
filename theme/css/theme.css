@@ -364,5 +364,13 @@ p + .c-theme-section--inner {
   font-weight: 700;
   font-size: 1.25em; }
 
+/**
+ * @name Color
+ * @level X.X.
+ */
+.c-theme-variable ul {
+  padding-left: 0;
+  list-style-type: none; }
+
 
 /*# sourceMappingURL=theme.css.map */

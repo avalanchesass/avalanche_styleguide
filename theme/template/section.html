@@ -2,15 +2,15 @@
   <{{ section.htag }} class="c-theme-section__title"><a href="#{{ section.level }}" class="c-theme-section__anchor">#</a>{{ section.name }}</{{ section.htag }}>
   {{ section.description|markdown }}
 
-  {% if section.markup %}
-    <div class="c-theme-section__detail c-theme-markup o-theme-island">
-      {% if section.markup_language != 'scss' %}
-        <div class="c-theme-markup__rendered">
-          {{ section.markup|raw }}
+  {% if section.code %}
+    <div class="c-theme-section__detail c-theme-code o-theme-island">
+      {% if section.code_language != 'scss' %}
+        <div class="c-theme-code__rendered">
+          {{ section.code|raw }}
         </div>
       {% endif %}
-      <div class="c-theme-markup__code">
-        <pre class="language-{{ section.markup_language }}"><code class="language-{{ section.markup_language }}">{{ section.markup }}</code></pre>
+      <div class="c-theme-code__code">
+        <pre class="language-{{ section.code_language }}"><code class="language-{{ section.code_language }}">{{ section.code }}</code></pre>
       </div>
     </div>
   {% endif %}
