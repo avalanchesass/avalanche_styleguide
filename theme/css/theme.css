@@ -327,9 +327,6 @@ p + .c-theme-section--inner {
 .c-theme-section__detail {
   margin-top: 0.5em; }
 
-.c-theme-section__title + h1 {
-  margin-top: 0; }
-
 .c-theme-section__anchor {
   position: absolute;
   margin-left: -0.75em;
