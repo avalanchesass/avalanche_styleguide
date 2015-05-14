@@ -3,7 +3,12 @@
  * @level X.X.
  */
 
+.c-toc__list {
+  list-style-type: none;
+}
+
 .c-toc__list--main {
+  padding: 0;
   > .c-toc__item + .c-toc__item {
     margin-top: $spacing-xs;
   }

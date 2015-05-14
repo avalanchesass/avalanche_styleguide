@@ -363,11 +363,16 @@ p + .c-theme-section--inner {
  * @name TOC
  * @level X.X.
  */
-.c-toc__list--main > .c-toc__item + .c-toc__item {
-  margin-top: 0.5em; }
-.c-toc__list--main > .c-toc__item > .c-toc__link {
-  font-weight: 700;
-  font-size: 1.25em; }
+.c-toc__list {
+  list-style-type: none; }
+
+.c-toc__list--main {
+  padding: 0; }
+  .c-toc__list--main > .c-toc__item + .c-toc__item {
+    margin-top: 0.5em; }
+  .c-toc__list--main > .c-toc__item > .c-toc__link {
+    font-weight: 700;
+    font-size: 1.25em; }
 
 /**
  * @name Color
