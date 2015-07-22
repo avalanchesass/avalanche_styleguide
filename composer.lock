@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "aecd33f721bb83273c86b301a687bcfd",
@@ -157,12 +157,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maoberlehner/cultusrego.git",
-                "reference": "0f0b928883acc847792444054a73a871d0471196"
+                "reference": "c06274eefecd895c53d43adc93c5de65e0ad090d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maoberlehner/cultusrego/zipball/0f0b928883acc847792444054a73a871d0471196",
-                "reference": "0f0b928883acc847792444054a73a871d0471196",
+                "url": "https://api.github.com/repos/maoberlehner/cultusrego/zipball/c06274eefecd895c53d43adc93c5de65e0ad090d",
+                "reference": "c06274eefecd895c53d43adc93c5de65e0ad090d",
                 "shasum": ""
             },
             "require": {
@@ -193,7 +193,7 @@
             "keywords": [
                 "styleguide"
             ],
-            "time": "2015-06-27 14:33:44"
+            "time": "2015-07-20 19:57:54"
         },
         {
             "name": "phootwork/collection",
