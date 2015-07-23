@@ -9,7 +9,7 @@ $styleguide = new cultusrego(array(
   'title' => '',
   'description' => 'a modular SASS framework',
   'base_path' => 'theme/',
-  'template_folder' => __DIR__ . '/theme/vendor/cultusrego_theme_default/template',
+  'template_folder' => array(__DIR__ . '/theme/template', __DIR__ . '/theme/vendor/cultusrego_theme_default/template'),
   'twig_cache' => FALSE,
 ));
 $styleguide->render();
