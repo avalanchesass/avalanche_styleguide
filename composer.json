@@ -1,5 +1,5 @@
 {
     "require": {
-        "moriartie/cultusrego": "dev-dev"
+        "moriartie/cultusrego": "^1.0.0"
     }
 }

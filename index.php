@@ -6,9 +6,10 @@ if (is_file('vendor/autoload.php')) {
 
 $styleguide = new cultusrego(array(
   'source' => '../css/avalanche.css',
-  'title' => 'avalanche Styleguide',
-  'description' => 'SASS / CSS Framework',
-  'template_folder' => __DIR__ . '/templates',
+  'title' => '',
+  'description' => 'a modular SASS framework',
+  'base_path' => 'theme/',
+  'template_folder' => array(__DIR__ . '/theme/template', __DIR__ . '/theme/vendor/cultusrego_theme_default/template'),
   'twig_cache' => FALSE,
 ));
 $styleguide->render();

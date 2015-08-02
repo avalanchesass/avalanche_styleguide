@@ -1,0 +1,26 @@
+{
+  "name": "avalanche styleguide theme",
+  "version": "2.0.0",
+  "homepage": "https://github.com/avalanchesass/avalanche_styleguide",
+  "authors": [
+    "Markus Oberlehner"
+  ],
+  "description": "Styleguide theme for the avalanche framework",
+  "main": "css/theme.css",
+  "keywords": [
+    "SASS",
+    "CSS"
+  ],
+  "license": "GPL v2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cultusrego_theme_default": "^1.0.0",
+    "normalize.css": "~3.0.3"
+  }
+}
