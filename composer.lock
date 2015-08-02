@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "aecd33f721bb83273c86b301a687bcfd",
+    "hash": "51b0daef723b74e59ed4f4016309e9e7",
     "packages": [
         {
             "name": "aptoma/twig-markdown",
@@ -153,16 +153,16 @@
         },
         {
             "name": "moriartie/cultusrego",
-            "version": "dev-dev",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maoberlehner/cultusrego.git",
-                "reference": "c06274eefecd895c53d43adc93c5de65e0ad090d"
+                "reference": "a3e5fb2c7dbde8e363b7cb37d47be15d69ed90d7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maoberlehner/cultusrego/zipball/c06274eefecd895c53d43adc93c5de65e0ad090d",
-                "reference": "c06274eefecd895c53d43adc93c5de65e0ad090d",
+                "url": "https://api.github.com/repos/maoberlehner/cultusrego/zipball/a3e5fb2c7dbde8e363b7cb37d47be15d69ed90d7",
+                "reference": "a3e5fb2c7dbde8e363b7cb37d47be15d69ed90d7",
                 "shasum": ""
             },
             "require": {
@@ -193,7 +193,7 @@
             "keywords": [
                 "styleguide"
             ],
-            "time": "2015-07-20 19:57:54"
+            "time": "2015-08-02 10:45:03"
         },
         {
             "name": "phootwork/collection",
@@ -273,16 +273,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.18.2",
+            "version": "v1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "e8e6575abf6102af53ec283f7f14b89e304fa602"
+                "reference": "edbeaf43b0a606cdaadc32a11d2673614a377b90"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/e8e6575abf6102af53ec283f7f14b89e304fa602",
-                "reference": "e8e6575abf6102af53ec283f7f14b89e304fa602",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/edbeaf43b0a606cdaadc32a11d2673614a377b90",
+                "reference": "edbeaf43b0a606cdaadc32a11d2673614a377b90",
                 "shasum": ""
             },
             "require": {
@@ -291,7 +291,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.18-dev"
+                    "dev-master": "1.19-dev"
                 }
             },
             "autoload": {
@@ -326,15 +326,13 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-06-06 23:31:24"
+            "time": "2015-07-31 13:45:26"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "moriartie/cultusrego": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
