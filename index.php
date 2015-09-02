@@ -8,7 +8,7 @@ $styleguide = new cultusrego(array(
   'source' => '../css/avalanche.css',
   'title' => '',
   'description' => 'a modular SASS framework',
-  'base_path' => 'theme/',
+  'asset_path' => 'theme/',
   'template_folder' => array(__DIR__ . '/theme/template', __DIR__ . '/theme/vendor/cultusrego_theme_default/template'),
   'twig_cache' => FALSE,
 ));
