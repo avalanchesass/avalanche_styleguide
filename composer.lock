@@ -153,16 +153,16 @@
         },
         {
             "name": "moriartie/cultusrego",
-            "version": "1.0.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maoberlehner/cultusrego.git",
-                "reference": "a3e5fb2c7dbde8e363b7cb37d47be15d69ed90d7"
+                "reference": "f39139ca73eca53a3298974db2d92254fe7190ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maoberlehner/cultusrego/zipball/a3e5fb2c7dbde8e363b7cb37d47be15d69ed90d7",
-                "reference": "a3e5fb2c7dbde8e363b7cb37d47be15d69ed90d7",
+                "url": "https://api.github.com/repos/maoberlehner/cultusrego/zipball/f39139ca73eca53a3298974db2d92254fe7190ca",
+                "reference": "f39139ca73eca53a3298974db2d92254fe7190ca",
                 "shasum": ""
             },
             "require": {
@@ -193,7 +193,7 @@
             "keywords": [
                 "styleguide"
             ],
-            "time": "2015-08-02 10:45:03"
+            "time": "2015-09-01 17:50:32"
         },
         {
             "name": "phootwork/collection",
@@ -273,25 +273,29 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.19.0",
+            "version": "v1.21.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "edbeaf43b0a606cdaadc32a11d2673614a377b90"
+                "reference": "ca8d3aa90b6a01c82e07909fe815d6b443e75a23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/edbeaf43b0a606cdaadc32a11d2673614a377b90",
-                "reference": "edbeaf43b0a606cdaadc32a11d2673614a377b90",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/ca8d3aa90b6a01c82e07909fe815d6b443e75a23",
+                "reference": "ca8d3aa90b6a01c82e07909fe815d6b443e75a23",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.7"
             },
+            "require-dev": {
+                "symfony/debug": "~2.7",
+                "symfony/phpunit-bridge": "~2.7"
+            },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.19-dev"
+                    "dev-master": "1.21-dev"
                 }
             },
             "autoload": {
@@ -326,7 +330,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-07-31 13:45:26"
+            "time": "2015-08-26 08:58:31"
         }
     ],
     "packages-dev": [],
